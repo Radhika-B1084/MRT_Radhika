@@ -1,0 +1,47 @@
+[0.364s] Invoking command in '/home/notthecoolkid/mrt_ws/src/sauron': PYTHONPATH=/home/notthecoolkid/mrt_ws/src/sauron/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/sauron build --build-base /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build install --record /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/install.log --single-version-externally-managed install_data
+[0.504s] running egg_info
+[0.504s] creating build/sauron/sauron.egg-info
+[0.504s] writing build/sauron/sauron.egg-info/PKG-INFO
+[0.504s] writing dependency_links to build/sauron/sauron.egg-info/dependency_links.txt
+[0.504s] writing entry points to build/sauron/sauron.egg-info/entry_points.txt
+[0.504s] writing requirements to build/sauron/sauron.egg-info/requires.txt
+[0.504s] writing top-level names to build/sauron/sauron.egg-info/top_level.txt
+[0.504s] writing manifest file 'build/sauron/sauron.egg-info/SOURCES.txt'
+[0.505s] reading manifest file 'build/sauron/sauron.egg-info/SOURCES.txt'
+[0.506s] writing manifest file 'build/sauron/sauron.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.506s] creating /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build
+[0.506s] creating /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib
+[0.506s] creating /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron
+[0.506s] copying sauron/listener.py -> /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron
+[0.506s] copying sauron/__init__.py -> /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron
+[0.506s] copying sauron/talker2.py -> /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron
+[0.506s] copying sauron/talker1.py -> /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron
+[0.506s] running install
+[0.506s] running install_lib
+[0.507s] creating /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron
+[0.507s] copying /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron/listener.py -> /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron
+[0.507s] copying /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron/__init__.py -> /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron
+[0.507s] copying /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron/talker2.py -> /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron
+[0.507s] copying /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build/lib/sauron/talker1.py -> /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron
+[0.507s] byte-compiling /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron/listener.py to listener.cpython-310.pyc
+[0.507s] byte-compiling /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron/__init__.py to __init__.cpython-310.pyc
+[0.507s] byte-compiling /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron/talker2.py to talker2.cpython-310.pyc
+[0.508s] byte-compiling /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron/talker1.py to talker1.cpython-310.pyc
+[0.508s] running install_data
+[0.508s] creating /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/share/ament_index
+[0.508s] creating /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/share/ament_index/resource_index
+[0.508s] creating /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/share/ament_index/resource_index/packages
+[0.508s] copying resource/sauron -> /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/share/ament_index/resource_index/packages
+[0.508s] copying package.xml -> /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/share/sauron
+[0.508s] creating /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/share/sauron/launch
+[0.508s] copying launch/pubsub.launch.py -> /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/share/sauron/launch
+[0.508s] running install_egg_info
+[0.509s] Copying build/sauron/sauron.egg-info to /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages/sauron-0.0.0-py3.10.egg-info
+[0.509s] running install_scripts
+[0.523s] Installing publisher1 script to /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/sauron
+[0.523s] Installing publisher2 script to /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/sauron
+[0.523s] Installing subscriber script to /home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/sauron
+[0.523s] writing list of installed files to '/home/notthecoolkid/mrt_ws/src/sauron/build/sauron/install.log'
+[0.539s] Invoked command in '/home/notthecoolkid/mrt_ws/src/sauron' returned '0': PYTHONPATH=/home/notthecoolkid/mrt_ws/src/sauron/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/notthecoolkid/mrt_ws/src/sauron/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/sauron build --build-base /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/build install --record /home/notthecoolkid/mrt_ws/src/sauron/build/sauron/install.log --single-version-externally-managed install_data
