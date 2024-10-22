@@ -1,0 +1,35 @@
+[0.350s] Invoking command in '/home/notthecoolkid/mrtx/mrt_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/src/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/src/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/src/install/aruco_server:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --build /home/notthecoolkid/mrtx/mrt_ws/build/tutorial_interfaces -- -j20 -l20
+[0.385s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[0.390s] [  2%] Built target tutorial_interfaces__cpp
+[0.396s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[0.399s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.400s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.401s] [ 12%] Built target ament_cmake_python_copy_tutorial_interfaces
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[0.406s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[0.406s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.409s] [ 23%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.410s] [ 34%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[0.413s] [ 44%] Built target tutorial_interfaces__rosidl_typesupport_c
+[0.414s] [ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[0.414s] [ 65%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[0.423s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[0.441s] [ 76%] Built target tutorial_interfaces
+[0.458s] [ 78%] Built target tutorial_interfaces__py
+[0.468s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py[0m
+[0.479s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[0.489s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[0.491s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.491s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.500s] [ 91%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[0.505s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.505s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.554s] running egg_info
+[0.554s] writing tutorial_interfaces.egg-info/PKG-INFO
+[0.554s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[0.555s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[0.556s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[0.557s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[0.578s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[0.590s] Invoked command in '/home/notthecoolkid/mrtx/mrt_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/src/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/src/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/src/install/aruco_server:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --build /home/notthecoolkid/mrtx/mrt_ws/build/tutorial_interfaces -- -j20 -l20

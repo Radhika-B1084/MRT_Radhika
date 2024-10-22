@@ -1,0 +1,4 @@
+[console_scripts]
+client = aruco_server.aruco_client:main
+service = aruco_server.aruco_service:main
+

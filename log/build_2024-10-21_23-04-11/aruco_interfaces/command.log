@@ -1,0 +1,2 @@
+Invoking command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces': /usr/bin/cmake --build /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces -- -j20 -l20
+Invoked command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces' returned '2': /usr/bin/cmake --build /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces -- -j20 -l20

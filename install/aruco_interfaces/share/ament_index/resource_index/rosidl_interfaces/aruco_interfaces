@@ -1,0 +1,6 @@
+msg/ArucoImage.idl
+msg/ArucoImage.msg
+srv/ArucoDetect.idl
+srv/ArucoDetect.srv
+srv/ArucoDetect_Request.msg
+srv/ArucoDetect_Response.msg

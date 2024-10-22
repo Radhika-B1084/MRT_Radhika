@@ -1,0 +1,4 @@
+[console_scripts]
+client = week1_tutorials.client_member_function:main
+service = week1_tutorials.service_member_function:main
+

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/aruco_server/aruco_server.egg-info/PKG-INFO
+../../build/aruco_server/aruco_server.egg-info/SOURCES.txt
+../../build/aruco_server/aruco_server.egg-info/dependency_links.txt
+../../build/aruco_server/aruco_server.egg-info/entry_points.txt
+../../build/aruco_server/aruco_server.egg-info/requires.txt
+../../build/aruco_server/aruco_server.egg-info/top_level.txt
+../../build/aruco_server/aruco_server.egg-info/zip-safe
+aruco_server/__init__.py
+aruco_server/aruco_client.py
+aruco_server/aruco_service.py
+resource/aruco_server
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

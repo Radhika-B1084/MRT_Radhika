@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aruco_interfaces/srv/ArucoDetect.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Polygon.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module aruco_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "srv/ArucoDetect.srv")
+    struct ArucoDetect_Request {
+      @verbatim (language="comment", text=
+        "Input: the image data")
+      sensor_msgs::msg::Image image;
+    };
+    struct ArucoDetect_Response {
+      @verbatim (language="comment", text=
+        "Output: detected ArUco marker IDs")
+      sequence<int32> ids;
+
+      @verbatim (language="comment", text=
+        "Output: bounding box coordinates [x1, y1, x2, y2, ..., xn, yn]")
+      sequence<geometry_msgs::msg::Polygon> polygon;
+    };
+  };
+};

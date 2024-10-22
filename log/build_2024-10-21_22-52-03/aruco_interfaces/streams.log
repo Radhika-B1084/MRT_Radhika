@@ -1,0 +1,20 @@
+[0.007s] Invoking command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake /home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces
+[0.016s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.150s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.152s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.156s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.204s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.345s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.345s]   Packages installing interfaces must include
+[0.345s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.346s]   package.xml
+[0.346s] Call Stack (most recent call first):
+[0.346s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.346s] 
+[0.346s] [0m
+[0.346s] -- Configuring incomplete, errors occurred!
+[0.346s] See also "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles/CMakeOutput.log".
+[0.351s] Invoked command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake /home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces
