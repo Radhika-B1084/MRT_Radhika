@@ -8,3 +8,4 @@ aruco_interfaces/msg/__init__.py
 aruco_interfaces/msg/_aruco_image.py
 aruco_interfaces/srv/__init__.py
 aruco_interfaces/srv/_aruco_detect.py
+aruco_interfaces/srv/_get_aruco_response.py

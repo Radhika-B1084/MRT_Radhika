@@ -1,0 +1,329 @@
+[0.016s] Invoking command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --build /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces -- -j20 -l20
+[0.057s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.260s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.293s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.296s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.304s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.413s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.924s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.925s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.926s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.927s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.860s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.893s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.893s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.893s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.952s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.953s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.955s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.964s] -- Added test 'lint_cmake' to check CMake code style
+[1.964s] -- Added test 'xmllint' to check XML markup files
+[1.966s] -- Configuring done
+[2.013s] -- Generating done
+[2.016s] -- Build files have been written to: /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces
+[2.054s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.072s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.082s] [  3%] Built target ament_cmake_python_copy_aruco_interfaces
+[2.424s] running egg_info
+[2.425s] writing aruco_interfaces.egg-info/PKG-INFO
+[2.425s] writing dependency_links to aruco_interfaces.egg-info/dependency_links.txt
+[2.425s] writing top-level names to aruco_interfaces.egg-info/top_level.txt
+[2.428s] reading manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[2.429s] writing manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[2.472s] [  3%] Built target ament_cmake_python_build_aruco_interfaces_egg
+[2.779s] [  3%] Built target aruco_interfaces__cpp
+[2.799s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.800s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.800s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.801s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_c[0m
+[2.821s] [ 10%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c.o[0m
+[2.825s] [ 12%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o[0m
+[2.825s] [ 14%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c.o[0m
+[2.825s] [ 16%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o[0m
+[2.952s] [ 18%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_generator_c.so[0m
+[3.016s] [ 18%] Built target aruco_interfaces__rosidl_generator_c
+[3.035s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.035s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.036s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.416s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_cpp[0m
+[3.437s] [ 25%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp.o[0m
+[3.442s] [ 27%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp.o[0m
+[3.442s] [ 29%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o[0m
+[3.445s] [ 30%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o[0m
+[3.498s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.526s] [ 32%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__type_support.cpp.o[0m
+[3.529s] [ 34%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/aruco_detect__type_support.cpp.o[0m
+[3.530s] [ 38%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_video__type_support.cpp.o[0m
+[3.530s] [ 38%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/get_aruco_response__type_support.cpp.o[0m
+[3.581s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.614s] [ 40%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/get_aruco_response__type_support.cpp.o[0m
+[3.619s] [ 41%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/aruco_detect__type_support.cpp.o[0m
+[3.619s] [ 43%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_image__type_support.cpp.o[0m
+[3.620s] [ 45%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_video__type_support.cpp.o[0m
+[3.754s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c[0m
+[3.792s] [ 47%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/aruco_image__type_support.cpp.o[0m
+[3.792s] [ 49%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o[0m
+[3.793s] [ 50%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/aruco_detect__type_support.cpp.o[0m
+[3.793s] [ 52%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/aruco_video__type_support.cpp.o[0m
+[3.906s] [ 54%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_c.so[0m
+[3.922s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c[0m
+[3.962s] [ 56%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/aruco_detect__type_support.c.o[0m
+[3.963s] [ 60%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__type_support.c.o[0m
+[3.963s] [ 60%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/get_aruco_response__type_support.c.o[0m
+[3.966s] [ 61%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_video__type_support.c.o[0m
+[4.059s] [ 61%] Built target aruco_interfaces__rosidl_typesupport_c
+[4.121s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.121s] [ 63%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.160s] [ 65%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_video__type_support_c.cpp.o[0m
+[4.165s] [ 70%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__type_support_c.cpp.o[0m
+[4.165s] [ 70%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/get_aruco_response__type_support_c.cpp.o[0m
+[4.165s] [ 70%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/aruco_detect__type_support_c.cpp.o[0m
+[4.226s] [ 70%] Built target aruco_interfaces__rosidl_typesupport_introspection_c
+[4.443s] [ 72%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so[0m
+[4.535s] [ 72%] Built target aruco_interfaces__rosidl_typesupport_cpp
+[4.998s] [ 74%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.047s] [ 76%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.120s] [ 78%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.125s] [ 78%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp
+[5.167s] [ 78%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c
+[5.233s] [ 78%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.263s] [ 78%] Built target aruco_interfaces
+[5.294s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.234s] [ 80%] Built target aruco_interfaces__py
+[6.250s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_py[0m
+[6.271s] [ 81%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/srv/_aruco_detect_s.c.o[0m
+[6.273s] [ 83%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c.o[0m
+[6.274s] [ 85%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_video_s.c.o[0m
+[6.275s] [ 87%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response_s.c.o[0m
+[6.442s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so[0m
+[6.506s] [ 89%] Built target aruco_interfaces__rosidl_generator_py
+[6.522s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.522s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c__pyext[0m
+[6.523s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[6.540s] [ 90%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.542s] [ 92%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.542s] [ 94%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.701s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.701s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.715s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.767s] [100%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.768s] [100%] Built target aruco_interfaces__rosidl_typesupport_c__pyext
+[6.779s] [100%] Built target aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.798s] Invoked command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --build /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces -- -j20 -l20
+[6.978s] Invoking command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --install /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces
+[6.988s] -- Install configuration: ""
+[6.998s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_interfaces
+[6.999s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[7.000s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[7.000s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_image.h
+[7.001s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.001s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[7.001s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__struct.h
+[7.002s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__type_support.h
+[7.002s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__functions.h
+[7.002s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__functions.c
+[7.002s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__functions.c
+[7.002s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__struct.h
+[7.002s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__functions.h
+[7.002s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__type_support.h
+[7.003s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_video.h
+[7.003s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv
+[7.003s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail
+[7.003s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__functions.h
+[7.003s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__type_support.h
+[7.004s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__functions.h
+[7.004s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__type_support.h
+[7.004s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__struct.h
+[7.005s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__functions.c
+[7.005s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__struct.h
+[7.005s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__functions.c
+[7.005s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/get_aruco_response.h
+[7.005s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/aruco_detect.h
+[7.005s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.sh
+[7.005s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.dsv
+[7.005s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so
+[7.005s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so" to ""
+[7.006s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[7.006s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[7.006s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.006s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[7.006s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__rosidl_typesupport_fastrtps_c.h
+[7.006s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_c.h
+[7.006s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv
+[7.006s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail
+[7.006s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__rosidl_typesupport_fastrtps_c.h
+[7.006s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__rosidl_typesupport_fastrtps_c.h
+[7.007s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.007s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.007s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[7.007s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[7.007s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_image.hpp
+[7.007s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_video.hpp
+[7.007s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[7.007s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__builder.hpp
+[7.007s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__struct.hpp
+[7.008s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__struct.hpp
+[7.008s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__traits.hpp
+[7.008s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__builder.hpp
+[7.008s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__traits.hpp
+[7.008s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv
+[7.008s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail
+[7.008s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__builder.hpp
+[7.008s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__builder.hpp
+[7.008s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__struct.hpp
+[7.008s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__traits.hpp
+[7.009s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__struct.hpp
+[7.009s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__traits.hpp
+[7.009s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/aruco_detect.hpp
+[7.009s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/get_aruco_response.hpp
+[7.009s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[7.009s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[7.009s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[7.009s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_cpp.hpp
+[7.009s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/dds_fastrtps
+[7.009s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__rosidl_typesupport_fastrtps_cpp.hpp
+[7.010s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.010s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv
+[7.010s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail
+[7.010s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__rosidl_typesupport_fastrtps_cpp.hpp
+[7.010s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/dds_fastrtps
+[7.010s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__rosidl_typesupport_fastrtps_cpp.hpp
+[7.010s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.011s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.011s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[7.011s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[7.011s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[7.011s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_c.h
+[7.011s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__type_support.c
+[7.011s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__rosidl_typesupport_introspection_c.h
+[7.011s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__type_support.c
+[7.011s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.011s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv
+[7.011s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail
+[7.012s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__type_support.c
+[7.012s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__rosidl_typesupport_introspection_c.h
+[7.012s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__rosidl_typesupport_introspection_c.h
+[7.012s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__type_support.c
+[7.012s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so
+[7.012s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.013s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so
+[7.013s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so" to ""
+[7.013s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[7.014s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[7.014s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[7.014s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__type_support.cpp
+[7.014s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__rosidl_typesupport_introspection_cpp.hpp
+[7.014s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__type_support.cpp
+[7.014s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_cpp.hpp
+[7.014s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv
+[7.014s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail
+[7.014s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__type_support.cpp
+[7.014s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__type_support.cpp
+[7.014s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__rosidl_typesupport_introspection_cpp.hpp
+[7.014s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__rosidl_typesupport_introspection_cpp.hpp
+[7.015s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.015s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.016s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so
+[7.016s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.016s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.sh
+[7.016s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.dsv
+[7.016s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info
+[7.017s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.017s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.017s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.017s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.017s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces
+[7.017s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+[7.017s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.017s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg
+[7.017s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_video_s.c
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_image.py
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_video.py
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_image_s.c
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.018s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so
+[7.019s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv
+[7.019s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_aruco_detect.py
+[7.019s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_get_aruco_response.py
+[7.019s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/__init__.py
+[7.019s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_aruco_detect_s.c
+[7.019s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_get_aruco_response_s.c
+[7.019s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.075s] Listing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces'...
+[7.075s] Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py'...
+[7.075s] Listing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg'...
+[7.075s] Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py'...
+[7.075s] Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_image.py'...
+[7.075s] Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_video.py'...
+[7.076s] Listing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv'...
+[7.076s] Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/__init__.py'...
+[7.076s] Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_aruco_detect.py'...
+[7.076s] Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_get_aruco_response.py'...
+[7.082s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.083s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.083s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.083s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.083s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.083s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.084s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so
+[7.084s] -- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so" to ""
+[7.085s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/ArucoDetect.idl
+[7.085s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoImage.idl
+[7.085s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/GetArucoResponse.idl
+[7.085s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoVideo.idl
+[7.085s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/ArucoDetect.srv
+[7.085s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/ArucoDetect_Request.msg
+[7.086s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/ArucoDetect_Response.msg
+[7.086s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoImage.msg
+[7.086s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/GetArucoResponse.srv
+[7.086s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/GetArucoResponse_Request.msg
+[7.086s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/GetArucoResponse_Response.msg
+[7.086s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoVideo.msg
+[7.086s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_interfaces
+[7.086s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_interfaces
+[7.087s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.sh
+[7.087s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.dsv
+[7.087s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.sh
+[7.087s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.dsv
+[7.087s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.bash
+[7.087s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.sh
+[7.087s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.zsh
+[7.087s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.dsv
+[7.088s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv
+[7.088s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/packages/aruco_interfaces
+[7.088s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport.cmake
+[7.088s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.088s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.088s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.088s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cppExport.cmake
+[7.088s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.089s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.089s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.089s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.089s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake
+[7.089s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.089s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.089s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.089s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[7.090s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.090s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport.cmake
+[7.090s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.090s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.090s] -- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.090s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.090s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.090s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.090s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.091s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.091s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig.cmake
+[7.091s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig-version.cmake
+[7.091s] -- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/package.xml
+[7.093s] Invoked command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --install /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces

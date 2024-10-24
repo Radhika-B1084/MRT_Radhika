@@ -71,10 +71,14 @@ aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_
 aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c
 aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/_aruco_detect.py
 aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py
+aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response.py
+aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/_aruco_video.py
 aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/__init__.py
 aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/__init__.py
 aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/_aruco_detect_s.c
 aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c
+aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response_s.c
+aruco_interfaces__py/CMakeFiles/aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/_aruco_video_s.c
 
 rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -91,6 +95,8 @@ rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_f
 rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/aruco_interfaces/srv/ArucoDetect.idl
 rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/aruco_interfaces/msg/ArucoImage.idl
+rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/aruco_interfaces/srv/GetArucoResponse.idl
+rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/aruco_interfaces/msg/ArucoVideo.idl
 rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
@@ -196,6 +202,12 @@ rosidl_generator_py/aruco_interfaces/srv/_aruco_detect.py: rosidl_generator_py/a
 rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py
 
+rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response.py: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response.py
+
+rosidl_generator_py/aruco_interfaces/msg/_aruco_video.py: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aruco_interfaces/msg/_aruco_video.py
+
 rosidl_generator_py/aruco_interfaces/srv/__init__.py: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aruco_interfaces/srv/__init__.py
 
@@ -208,6 +220,12 @@ rosidl_generator_py/aruco_interfaces/srv/_aruco_detect_s.c: rosidl_generator_py/
 rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c
 
+rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response_s.c: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response_s.c
+
+rosidl_generator_py/aruco_interfaces/msg/_aruco_video_s.c: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/aruco_interfaces/msg/_aruco_video_s.c
+
 aruco_interfaces__py: aruco_interfaces__py/CMakeFiles/aruco_interfaces__py
 aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c
 aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -215,9 +233,13 @@ aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.e
 aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/__init__.py
 aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py
 aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c
+aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/_aruco_video.py
+aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/msg/_aruco_video_s.c
 aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/__init__.py
 aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/_aruco_detect.py
 aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/_aruco_detect_s.c
+aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response.py
+aruco_interfaces__py: rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response_s.c
 aruco_interfaces__py: aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make
 .PHONY : aruco_interfaces__py
 

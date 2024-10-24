@@ -2,6 +2,8 @@
   "package_name": "aruco_interfaces",
   "non_idl_tuples": [
     "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces:srv/ArucoDetect.srv",
-    "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces:msg/ArucoImage.msg"
+    "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces:msg/ArucoImage.msg",
+    "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces:srv/GetArucoResponse.srv",
+    "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces:msg/ArucoVideo.msg"
   ]
 }

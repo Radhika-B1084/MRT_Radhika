@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'service = aruco_server.aruco_service:main',
             'client = aruco_server.aruco_client:main',
+            'vservice = aruco_server.arucovid_service:main',
+            'vclient = aruco_server.arucovid_client:main',
         ],
     },
 )

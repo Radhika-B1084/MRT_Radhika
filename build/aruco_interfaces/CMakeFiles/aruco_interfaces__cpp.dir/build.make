@@ -74,6 +74,14 @@ CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/aruc
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__builder.hpp
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__struct.hpp
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__traits.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/get_aruco_response.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__builder.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__struct.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__traits.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/aruco_video.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__builder.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__struct.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__traits.hpp
 
 rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -92,6 +100,8 @@ rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: /opt/ros/humble/shar
 rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: rosidl_adapter/aruco_interfaces/srv/ArucoDetect.idl
 rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: rosidl_adapter/aruco_interfaces/msg/ArucoImage.idl
+rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: rosidl_adapter/aruco_interfaces/srv/GetArucoResponse.idl
+rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: rosidl_adapter/aruco_interfaces/msg/ArucoVideo.idl
 rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
@@ -206,15 +216,47 @@ rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__struct.hpp: rosidl
 rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__traits.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__traits.hpp
 
+rosidl_generator_cpp/aruco_interfaces/srv/get_aruco_response.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/srv/get_aruco_response.hpp
+
+rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__builder.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__builder.hpp
+
+rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__struct.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__struct.hpp
+
+rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__traits.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__traits.hpp
+
+rosidl_generator_cpp/aruco_interfaces/msg/aruco_video.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/msg/aruco_video.hpp
+
+rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__builder.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__builder.hpp
+
+rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__struct.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__struct.hpp
+
+rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__traits.hpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__traits.hpp
+
 aruco_interfaces__cpp: CMakeFiles/aruco_interfaces__cpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/aruco_image.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/aruco_video.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__builder.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__struct.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__traits.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__builder.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__struct.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_video__traits.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/aruco_detect.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/aruco_detect__builder.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/aruco_detect__struct.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/aruco_detect__traits.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__builder.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__struct.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/get_aruco_response__traits.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/get_aruco_response.hpp
 aruco_interfaces__cpp: CMakeFiles/aruco_interfaces__cpp.dir/build.make
 .PHONY : aruco_interfaces__cpp
 

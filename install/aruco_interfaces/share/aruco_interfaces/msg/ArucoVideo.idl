@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aruco_interfaces/msg/ArucoVideo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module aruco_interfaces {
+  module msg {
+    struct ArucoVideo {
+      @verbatim (language="comment", text=
+        "Array of detected marker IDs")
+      sequence<int32> ids;
+
+      @verbatim (language="comment", text=
+        "2D array of points for each marker's bounding box")
+      sequence<geometry_msgs::msg::Point> corners;
+    };
+  };
+};

@@ -77,6 +77,8 @@ rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: /opt
 rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: rosidl_adapter/aruco_interfaces/srv/ArucoDetect.idl
 rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: rosidl_adapter/aruco_interfaces/msg/ArucoImage.idl
+rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: rosidl_adapter/aruco_interfaces/srv/GetArucoResponse.idl
+rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: rosidl_adapter/aruco_interfaces/msg/ArucoVideo.idl
 rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
@@ -173,6 +175,12 @@ rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp: /opt
 rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp: rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp
 
+rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp: rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp
+
+rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp: rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp
+
 CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp.o: rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp
 CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/compiler_depend.ts
@@ -201,16 +209,48 @@ CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/a
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp -o CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp.s
 
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o: rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o -MF CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o.d -o CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o -c /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp
+
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp > CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.i
+
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp -o CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.s
+
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o: rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o -MF CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o.d -o CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o -c /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp
+
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp > CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.i
+
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp -o CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.s
+
 # Object files for target aruco_interfaces__rosidl_typesupport_cpp
 aruco_interfaces__rosidl_typesupport_cpp_OBJECTS = \
 "CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp.o" \
-"CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp.o"
+"CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp.o" \
+"CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o" \
+"CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o"
 
 # External object files for target aruco_interfaces__rosidl_typesupport_cpp
 aruco_interfaces__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
 
 libaruco_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp.o
 libaruco_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp.o
+libaruco_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o
+libaruco_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o
 libaruco_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/build.make
 libaruco_interfaces__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libaruco_interfaces__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
@@ -221,7 +261,7 @@ libaruco_interfaces__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librosidl_ty
 libaruco_interfaces__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libaruco_interfaces__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librcutils.so
 libaruco_interfaces__rosidl_typesupport_cpp.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,7 +273,9 @@ CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/clean
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp
 CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp
+CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp
 	cd /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces /home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/depend
 

@@ -4,7 +4,9 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
     "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:srv/ArucoDetect.idl",
-    "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/ArucoImage.idl"
+    "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/ArucoImage.idl",
+    "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:srv/GetArucoResponse.idl",
+    "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/ArucoVideo.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -107,6 +109,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
     "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/srv/ArucoDetect.idl",
     "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/msg/ArucoImage.idl",
+    "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/srv/GetArucoResponse.idl",
+    "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/msg/ArucoVideo.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",

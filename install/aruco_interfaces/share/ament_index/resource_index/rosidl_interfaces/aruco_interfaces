@@ -1,6 +1,12 @@
 msg/ArucoImage.idl
 msg/ArucoImage.msg
+msg/ArucoVideo.idl
+msg/ArucoVideo.msg
 srv/ArucoDetect.idl
 srv/ArucoDetect.srv
 srv/ArucoDetect_Request.msg
 srv/ArucoDetect_Response.msg
+srv/GetArucoResponse.idl
+srv/GetArucoResponse.srv
+srv/GetArucoResponse_Request.msg
+srv/GetArucoResponse_Response.msg

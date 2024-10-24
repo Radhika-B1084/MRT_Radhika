@@ -364,6 +364,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_interfaces/srv" TYPE FILE FILES "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/srv/GetArucoResponse.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_interfaces/msg" TYPE FILE FILES "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/msg/ArucoVideo.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_interfaces/srv" TYPE FILE FILES "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces/srv/ArucoDetect.srv")
 endif()
 
@@ -377,6 +385,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_interfaces/msg" TYPE FILE FILES "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces/msg/ArucoImage.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_interfaces/srv" TYPE FILE FILES "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces/srv/GetArucoResponse.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_interfaces/srv" TYPE FILE FILES "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_cmake/srv/GetArucoResponse_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_interfaces/srv" TYPE FILE FILES "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_cmake/srv/GetArucoResponse_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_interfaces/msg" TYPE FILE FILES "/home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces/msg/ArucoVideo.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -84,6 +84,8 @@ rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: /opt/ros/humble/share/ro
 rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: rosidl_adapter/aruco_interfaces/srv/ArucoDetect.idl
 rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: rosidl_adapter/aruco_interfaces/msg/ArucoImage.idl
+rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: rosidl_adapter/aruco_interfaces/srv/GetArucoResponse.idl
+rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: rosidl_adapter/aruco_interfaces/msg/ArucoVideo.idl
 rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
@@ -198,11 +200,41 @@ rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__struct.h: rosidl_gen
 rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__type_support.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__type_support.h
 
+rosidl_generator_c/aruco_interfaces/srv/get_aruco_response.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/srv/get_aruco_response.h
+
+rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.h
+
+rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__struct.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__struct.h
+
+rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__type_support.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__type_support.h
+
+rosidl_generator_c/aruco_interfaces/msg/aruco_video.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/msg/aruco_video.h
+
+rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.h
+
+rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__struct.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__struct.h
+
+rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__type_support.h: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__type_support.h
+
 rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c
 
 rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c
+
+rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c
+
+rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c
 
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c.o: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c.o: rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c
@@ -232,16 +264,48 @@ CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_int
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c -o CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c.s
 
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o: rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o -MF CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o.d -o CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o -c /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c
+
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c > CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.i
+
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c -o CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.s
+
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o -MF CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o.d -o CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o -c /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c
+
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c > CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.i
+
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c -o CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.s
+
 # Object files for target aruco_interfaces__rosidl_generator_c
 aruco_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c.o" \
-"CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c.o"
+"CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c.o" \
+"CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o" \
+"CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o"
 
 # External object files for target aruco_interfaces__rosidl_generator_c
 aruco_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libaruco_interfaces__rosidl_generator_c.so: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c.o
 libaruco_interfaces__rosidl_generator_c.so: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c.o
+libaruco_interfaces__rosidl_generator_c.so: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o
+libaruco_interfaces__rosidl_generator_c.so: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o
 libaruco_interfaces__rosidl_generator_c.so: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make
 libaruco_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libaruco_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -250,7 +314,7 @@ libaruco_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_inter
 libaruco_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libaruco_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libaruco_interfaces__rosidl_generator_c.so: CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libaruco_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libaruco_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -262,15 +326,25 @@ CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/clean:
 .PHONY : CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/clean
 
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/aruco_image.h
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/aruco_video.h
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.h
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__struct.h
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__type_support.h
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.h
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__struct.h
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__type_support.h
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/aruco_detect.h
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.h
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__struct.h
 CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__type_support.h
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.h
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__struct.h
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__type_support.h
+CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/aruco_interfaces/srv/get_aruco_response.h
 	cd /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces /home/notthecoolkid/mrtx/mrt_ws/src/aruco_interfaces /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/depend
 

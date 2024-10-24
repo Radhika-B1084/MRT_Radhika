@@ -17,9 +17,13 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/__init__.py" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_video.py" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_video_s.c" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/__init__.py" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_aruco_detect.py" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_aruco_detect_s.c" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response.py" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response_s.c" "/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

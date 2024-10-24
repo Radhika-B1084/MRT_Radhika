@@ -226,12 +226,12 @@ bool aruco_interfaces__srv__aruco_detect__response__convert_from_py(PyObject * _
     }
     Py_DECREF(field);
   }
-  {  // corners
-    PyObject * field = PyObject_GetAttrString(_pymsg, "corners");
+  {  // polygon
+    PyObject * field = PyObject_GetAttrString(_pymsg, "polygon");
     if (!field) {
       return false;
     }
-    PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'corners'");
+    PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'polygon'");
     if (!seq_field) {
       Py_DECREF(field);
       return false;
@@ -242,13 +242,13 @@ bool aruco_interfaces__srv__aruco_detect__response__convert_from_py(PyObject * _
       Py_DECREF(field);
       return false;
     }
-    if (!geometry_msgs__msg__Polygon__Sequence__init(&(ros_message->corners), size)) {
+    if (!geometry_msgs__msg__Polygon__Sequence__init(&(ros_message->polygon), size)) {
       PyErr_SetString(PyExc_RuntimeError, "unable to create geometry_msgs__msg__Polygon__Sequence ros_message");
       Py_DECREF(seq_field);
       Py_DECREF(field);
       return false;
     }
-    geometry_msgs__msg__Polygon * dest = ros_message->corners.data;
+    geometry_msgs__msg__Polygon * dest = ros_message->polygon.data;
     for (Py_ssize_t i = 0; i < size; ++i) {
       if (!geometry_msgs__msg__polygon__convert_from_py(PySequence_Fast_GET_ITEM(seq_field, i), &dest[i])) {
         Py_DECREF(seq_field);
@@ -338,16 +338,16 @@ PyObject * aruco_interfaces__srv__aruco_detect__response__convert_to_py(void * r
     }
     Py_DECREF(field);
   }
-  {  // corners
+  {  // polygon
     PyObject * field = NULL;
-    size_t size = ros_message->corners.size;
+    size_t size = ros_message->polygon.size;
     field = PyList_New(size);
     if (!field) {
       return NULL;
     }
     geometry_msgs__msg__Polygon * item;
     for (size_t i = 0; i < size; ++i) {
-      item = &(ros_message->corners.data[i]);
+      item = &(ros_message->polygon.data[i]);
       PyObject * pyitem = geometry_msgs__msg__polygon__convert_to_py(item);
       if (!pyitem) {
         Py_DECREF(field);
@@ -359,7 +359,7 @@ PyObject * aruco_interfaces__srv__aruco_detect__response__convert_to_py(void * r
     }
     assert(PySequence_Check(field));
     {
-      int rc = PyObject_SetAttrString(_pymessage, "corners", field);
+      int rc = PyObject_SetAttrString(_pymessage, "polygon", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

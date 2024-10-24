@@ -1,0 +1,439 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (-) JobUnselected: {'identifier': 'sauron'}
+[0.000349] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000380] (-) JobUnselected: {'identifier': 'week0_tutorials'}
+[0.000540] (aruco_interfaces) JobQueued: {'identifier': 'aruco_interfaces', 'dependencies': OrderedDict()}
+[0.000576] (aruco_server) JobQueued: {'identifier': 'aruco_server', 'dependencies': OrderedDict()}
+[0.001155] (aruco_interfaces) JobStarted: {'identifier': 'aruco_interfaces'}
+[0.007676] (aruco_server) JobStarted: {'identifier': 'aruco_server'}
+[0.013812] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'cmake'}
+[0.015269] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'build'}
+[0.015500] (aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'notthecoolkid'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces/lib:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/notthecoolkid'), ('OLDPWD', '/home/notthecoolkid/mrtx'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1052'), ('SYSTEMD_EXEC_PID', '1230'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12827'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/notthecoolkid/mrtx/mrt_ws/install:/home/notthecoolkid/mrt_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'notthecoolkid'), ('JOURNAL_STREAM', '8:14983'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'notthecoolkid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/notthecoolkid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Vivobook:@/tmp/.ICE-unix/1207,unix/Vivobook:/tmp/.ICE-unix/1207'), ('INVOCATION_ID', 'af7f086f816c44fe8deb5c7aa4e6c7d6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FRZVV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d456c5c2-159a-419b-bb44-f2da0a0c76e0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/notthecoolkid/mrtx/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages:/home/notthecoolkid/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrt_ws/install/sauron/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble')]), 'shell': False}
+[0.057703] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099800] (-) TimerEvent: {}
+[0.200262] (-) TimerEvent: {}
+[0.260711] (aruco_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.294290] (aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.297473] (aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300368] (-) TimerEvent: {}
+[0.305162] (aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.317845] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.334847] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400583] (-) TimerEvent: {}
+[0.413800] (aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500828] (-) TimerEvent: {}
+[0.601268] (-) TimerEvent: {}
+[0.701789] (-) TimerEvent: {}
+[0.802291] (-) TimerEvent: {}
+[0.836316] (aruco_server) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_server', 'build', '--build-base', '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/build', 'install', '--record', '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/notthecoolkid/mrtx/mrt_ws/src/aruco_server', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'notthecoolkid', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces/lib:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/notthecoolkid', 'OLDPWD': '/home/notthecoolkid/mrtx', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1052', 'SYSTEMD_EXEC_PID': '1230', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '12827', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/notthecoolkid/mrtx/mrt_ws/install:/home/notthecoolkid/mrt_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'notthecoolkid', 'JOURNAL_STREAM': '8:14983', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'notthecoolkid', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/notthecoolkid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Vivobook:@/tmp/.ICE-unix/1207,unix/Vivobook:/tmp/.ICE-unix/1207', 'INVOCATION_ID': 'af7f086f816c44fe8deb5c7aa4e6c7d6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FRZVV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d456c5c2-159a-419b-bb44-f2da0a0c76e0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/notthecoolkid/mrtx/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages:/home/notthecoolkid/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrt_ws/install/sauron/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces'}, 'shell': False}
+[0.902479] (-) TimerEvent: {}
+[0.924819] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[0.925757] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[0.926581] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[0.928000] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.002705] (-) TimerEvent: {}
+[1.103200] (-) TimerEvent: {}
+[1.156411] (aruco_server) StdoutLine: {'line': b'running egg_info\n'}
+[1.157328] (aruco_server) StdoutLine: {'line': b'writing ../../build/aruco_server/aruco_server.egg-info/PKG-INFO\n'}
+[1.157664] (aruco_server) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_server/aruco_server.egg-info/dependency_links.txt\n'}
+[1.157824] (aruco_server) StdoutLine: {'line': b'writing entry points to ../../build/aruco_server/aruco_server.egg-info/entry_points.txt\n'}
+[1.158080] (aruco_server) StdoutLine: {'line': b'writing requirements to ../../build/aruco_server/aruco_server.egg-info/requires.txt\n'}
+[1.158245] (aruco_server) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_server/aruco_server.egg-info/top_level.txt\n'}
+[1.160364] (aruco_server) StdoutLine: {'line': b"reading manifest file '../../build/aruco_server/aruco_server.egg-info/SOURCES.txt'\n"}
+[1.161498] (aruco_server) StdoutLine: {'line': b"writing manifest file '../../build/aruco_server/aruco_server.egg-info/SOURCES.txt'\n"}
+[1.161687] (aruco_server) StdoutLine: {'line': b'running build\n'}
+[1.161827] (aruco_server) StdoutLine: {'line': b'running build_py\n'}
+[1.162263] (aruco_server) StdoutLine: {'line': b'running install\n'}
+[1.162578] (aruco_server) StdoutLine: {'line': b'running install_lib\n'}
+[1.164501] (aruco_server) StdoutLine: {'line': b'running install_data\n'}
+[1.164635] (aruco_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.166982] (aruco_server) StdoutLine: {'line': b"removing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.167261] (aruco_server) StdoutLine: {'line': b'Copying ../../build/aruco_server/aruco_server.egg-info to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server-0.0.0-py3.10.egg-info\n'}
+[1.168181] (aruco_server) StdoutLine: {'line': b'running install_scripts\n'}
+[1.199497] (aruco_server) StdoutLine: {'line': b'Installing client script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server\n'}
+[1.199714] (aruco_server) StdoutLine: {'line': b'Installing service script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server\n'}
+[1.199865] (aruco_server) StdoutLine: {'line': b'Installing vclient script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server\n'}
+[1.200114] (aruco_server) StdoutLine: {'line': b'Installing vservice script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server\n'}
+[1.200279] (aruco_server) StdoutLine: {'line': b"writing list of installed files to '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/install.log'\n"}
+[1.203279] (-) TimerEvent: {}
+[1.232561] (aruco_server) CommandEnded: {'returncode': 0}
+[1.247169] (aruco_server) JobEnded: {'identifier': 'aruco_server', 'rc': 0}
+[1.303516] (-) TimerEvent: {}
+[1.404035] (-) TimerEvent: {}
+[1.504562] (-) TimerEvent: {}
+[1.594957] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.604734] (-) TimerEvent: {}
+[1.705137] (-) TimerEvent: {}
+[1.805599] (-) TimerEvent: {}
+[1.824058] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.861402] (aruco_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.894095] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.894270] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.894334] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.905767] (-) TimerEvent: {}
+[1.953179] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.954020] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.955753] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.965082] (aruco_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.965475] (aruco_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.967540] (aruco_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.006020] (-) TimerEvent: {}
+[2.014470] (aruco_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.017125] (aruco_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces\n'}
+[2.055425] (aruco_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.072889] (aruco_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.082604] (aruco_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_aruco_interfaces\n'}
+[2.106231] (-) TimerEvent: {}
+[2.206666] (-) TimerEvent: {}
+[2.307116] (-) TimerEvent: {}
+[2.407623] (-) TimerEvent: {}
+[2.424879] (aruco_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.426025] (aruco_interfaces) StdoutLine: {'line': b'writing aruco_interfaces.egg-info/PKG-INFO\n'}
+[2.426300] (aruco_interfaces) StdoutLine: {'line': b'writing dependency_links to aruco_interfaces.egg-info/dependency_links.txt\n'}
+[2.426460] (aruco_interfaces) StdoutLine: {'line': b'writing top-level names to aruco_interfaces.egg-info/top_level.txt\n'}
+[2.429173] (aruco_interfaces) StdoutLine: {'line': b"reading manifest file 'aruco_interfaces.egg-info/SOURCES.txt'\n"}
+[2.430111] (aruco_interfaces) StdoutLine: {'line': b"writing manifest file 'aruco_interfaces.egg-info/SOURCES.txt'\n"}
+[2.473170] (aruco_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_aruco_interfaces_egg\n'}
+[2.507822] (-) TimerEvent: {}
+[2.608159] (-) TimerEvent: {}
+[2.708573] (-) TimerEvent: {}
+[2.779590] (aruco_interfaces) StdoutLine: {'line': b'[  3%] Built target aruco_interfaces__cpp\n'}
+[2.800357] (aruco_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.800802] (aruco_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.801032] (aruco_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.802185] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.808811] (-) TimerEvent: {}
+[2.822222] (aruco_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c.o\x1b[0m\n'}
+[2.825516] (aruco_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.c.o\x1b[0m\n'}
+[2.825906] (aruco_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c.o\x1b[0m\n'}
+[2.826160] (aruco_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o\x1b[0m\n'}
+[2.908967] (-) TimerEvent: {}
+[2.952598] (aruco_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libaruco_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.009114] (-) TimerEvent: {}
+[3.016844] (aruco_interfaces) StdoutLine: {'line': b'[ 18%] Built target aruco_interfaces__rosidl_generator_c\n'}
+[3.036031] (aruco_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.036511] (aruco_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.036668] (aruco_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.109259] (-) TimerEvent: {}
+[3.209831] (-) TimerEvent: {}
+[3.310366] (-) TimerEvent: {}
+[3.410814] (-) TimerEvent: {}
+[3.416919] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.438265] (aruco_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp.o\x1b[0m\n'}
+[3.442475] (aruco_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp.o\x1b[0m\n'}
+[3.443162] (aruco_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_video__type_support.cpp.o\x1b[0m\n'}
+[3.445615] (aruco_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o\x1b[0m\n'}
+[3.498581] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.510934] (-) TimerEvent: {}
+[3.526460] (aruco_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__type_support.cpp.o\x1b[0m\n'}
+[3.529799] (aruco_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/aruco_detect__type_support.cpp.o\x1b[0m\n'}
+[3.530952] (aruco_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_video__type_support.cpp.o\x1b[0m\n'}
+[3.531302] (aruco_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/get_aruco_response__type_support.cpp.o\x1b[0m\n'}
+[3.582306] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.611112] (-) TimerEvent: {}
+[3.615376] (aruco_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/get_aruco_response__type_support.cpp.o\x1b[0m\n'}
+[3.619428] (aruco_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/aruco_detect__type_support.cpp.o\x1b[0m\n'}
+[3.620056] (aruco_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_image__type_support.cpp.o\x1b[0m\n'}
+[3.620760] (aruco_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_video__type_support.cpp.o\x1b[0m\n'}
+[3.711290] (-) TimerEvent: {}
+[3.755000] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.792509] (aruco_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/aruco_image__type_support.cpp.o\x1b[0m\n'}
+[3.793347] (aruco_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o\x1b[0m\n'}
+[3.793863] (aruco_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/aruco_detect__type_support.cpp.o\x1b[0m\n'}
+[3.794250] (aruco_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/aruco_video__type_support.cpp.o\x1b[0m\n'}
+[3.811469] (-) TimerEvent: {}
+[3.906473] (aruco_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.911654] (-) TimerEvent: {}
+[3.923055] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.962789] (aruco_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/aruco_detect__type_support.c.o\x1b[0m\n'}
+[3.963505] (aruco_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__type_support.c.o\x1b[0m\n'}
+[3.963978] (aruco_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/get_aruco_response__type_support.c.o\x1b[0m\n'}
+[3.967155] (aruco_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_video__type_support.c.o\x1b[0m\n'}
+[4.011905] (-) TimerEvent: {}
+[4.060128] (aruco_interfaces) StdoutLine: {'line': b'[ 61%] Built target aruco_interfaces__rosidl_typesupport_c\n'}
+[4.112363] (-) TimerEvent: {}
+[4.121354] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.122085] (aruco_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.161099] (aruco_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_video__type_support_c.cpp.o\x1b[0m\n'}
+[4.165403] (aruco_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__type_support_c.cpp.o\x1b[0m\n'}
+[4.165939] (aruco_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/get_aruco_response__type_support_c.cpp.o\x1b[0m\n'}
+[4.166192] (aruco_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/aruco_detect__type_support_c.cpp.o\x1b[0m\n'}
+[4.212551] (-) TimerEvent: {}
+[4.227026] (aruco_interfaces) StdoutLine: {'line': b'[ 70%] Built target aruco_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.312811] (-) TimerEvent: {}
+[4.413561] (-) TimerEvent: {}
+[4.444303] (aruco_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.513802] (-) TimerEvent: {}
+[4.535422] (aruco_interfaces) StdoutLine: {'line': b'[ 72%] Built target aruco_interfaces__rosidl_typesupport_cpp\n'}
+[4.614019] (-) TimerEvent: {}
+[4.715076] (-) TimerEvent: {}
+[4.815839] (-) TimerEvent: {}
+[4.916374] (-) TimerEvent: {}
+[4.999027] (aruco_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.016547] (-) TimerEvent: {}
+[5.047597] (aruco_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.116797] (-) TimerEvent: {}
+[5.121042] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.125974] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.167658] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.217037] (-) TimerEvent: {}
+[5.233980] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.264402] (aruco_interfaces) StdoutLine: {'line': b'[ 78%] Built target aruco_interfaces\n'}
+[5.294816] (aruco_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.317207] (-) TimerEvent: {}
+[5.417635] (-) TimerEvent: {}
+[5.518109] (-) TimerEvent: {}
+[5.618561] (-) TimerEvent: {}
+[5.719026] (-) TimerEvent: {}
+[5.819453] (-) TimerEvent: {}
+[5.919901] (-) TimerEvent: {}
+[6.020343] (-) TimerEvent: {}
+[6.120801] (-) TimerEvent: {}
+[6.221155] (-) TimerEvent: {}
+[6.234842] (aruco_interfaces) StdoutLine: {'line': b'[ 80%] Built target aruco_interfaces__py\n'}
+[6.251263] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_py\x1b[0m\n'}
+[6.272503] (aruco_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/srv/_aruco_detect_s.c.o\x1b[0m\n'}
+[6.273961] (aruco_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c.o\x1b[0m\n'}
+[6.275390] (aruco_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_video_s.c.o\x1b[0m\n'}
+[6.275688] (aruco_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response_s.c.o\x1b[0m\n'}
+[6.321302] (-) TimerEvent: {}
+[6.421831] (-) TimerEvent: {}
+[6.443144] (aruco_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[6.507265] (aruco_interfaces) StdoutLine: {'line': b'[ 89%] Built target aruco_interfaces__rosidl_generator_py\n'}
+[6.522041] (-) TimerEvent: {}
+[6.523246] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.523441] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.524084] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.540657] (aruco_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.542907] (aruco_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.543431] (aruco_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.622163] (-) TimerEvent: {}
+[6.702064] (aruco_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.702536] (aruco_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.716234] (aruco_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.722273] (-) TimerEvent: {}
+[6.768332] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.768750] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.779833] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.799097] (aruco_interfaces) CommandEnded: {'returncode': 0}
+[6.822399] (-) TimerEvent: {}
+[6.922789] (-) TimerEvent: {}
+[6.966182] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'install'}
+[6.978584] (aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces'], 'cwd': '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'notthecoolkid'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces/lib:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/notthecoolkid'), ('OLDPWD', '/home/notthecoolkid/mrtx'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1052'), ('SYSTEMD_EXEC_PID', '1230'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12827'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/notthecoolkid/mrtx/mrt_ws/install:/home/notthecoolkid/mrt_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'notthecoolkid'), ('JOURNAL_STREAM', '8:14983'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'notthecoolkid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/notthecoolkid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Vivobook:@/tmp/.ICE-unix/1207,unix/Vivobook:/tmp/.ICE-unix/1207'), ('INVOCATION_ID', 'af7f086f816c44fe8deb5c7aa4e6c7d6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FRZVV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d456c5c2-159a-419b-bb44-f2da0a0c76e0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/notthecoolkid/mrtx/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages:/home/notthecoolkid/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/notthecoolkid/mrt_ws/install/sauron/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/notthecoolkid/mrtx/mrt_ws/install/tutorial_interfaces:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces:/home/notthecoolkid/mrtx/mrt_ws/install/week1_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrtx/mrt_ws/install/sauron:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server:/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble')]), 'shell': False}
+[6.989283] (aruco_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.999101] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_interfaces\n'}
+[7.000177] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[7.000825] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[7.001459] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_image.h\n'}
+[7.001689] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.001866] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[7.002259] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__struct.h\n'}
+[7.002624] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__type_support.h\n'}
+[7.002792] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__functions.h\n'}
+[7.003088] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__functions.c\n'}
+[7.003200] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__functions.c\n'}
+[7.003310] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__struct.h\n'}
+[7.003419] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__functions.h\n'}
+[7.003527] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__type_support.h\n'}
+[7.003628] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_video.h\n'}
+[7.003729] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[7.003848] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[7.003962] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__functions.h\n'}
+[7.004342] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__type_support.h\n'}
+[7.004631] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__functions.h\n'}
+[7.004765] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__type_support.h\n'}
+[7.005324] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__struct.h\n'}
+[7.005526] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__functions.c\n'}
+[7.005747] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__struct.h\n'}
+[7.005942] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__functions.c\n'}
+[7.006164] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/get_aruco_response.h\n'}
+[7.006260] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/aruco_detect.h\n'}
+[7.006349] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.sh\n'}
+[7.006437] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.dsv\n'}
+[7.006522] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so\n'}
+[7.006603] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.006685] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[7.006766] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[7.006851] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.006944] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[7.007084] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__rosidl_typesupport_fastrtps_c.h\n'}
+[7.007265] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_c.h\n'}
+[7.007344] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[7.007420] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[7.007496] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__rosidl_typesupport_fastrtps_c.h\n'}
+[7.007571] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__rosidl_typesupport_fastrtps_c.h\n'}
+[7.007691] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.007814] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.007943] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[7.008064] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[7.008142] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_image.hpp\n'}
+[7.008264] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_video.hpp\n'}
+[7.008415] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[7.008497] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__builder.hpp\n'}
+[7.008574] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__struct.hpp\n'}
+[7.008698] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__struct.hpp\n'}
+[7.008847] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__traits.hpp\n'}
+[7.008928] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__builder.hpp\n'}
+[7.009001] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__traits.hpp\n'}
+[7.009133] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[7.009204] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[7.009273] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__builder.hpp\n'}
+[7.009344] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__builder.hpp\n'}
+[7.009456] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__struct.hpp\n'}
+[7.009599] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__traits.hpp\n'}
+[7.009680] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__struct.hpp\n'}
+[7.009752] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__traits.hpp\n'}
+[7.009870] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/aruco_detect.hpp\n'}
+[7.010036] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/get_aruco_response.hpp\n'}
+[7.010113] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[7.010235] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[7.010306] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[7.010376] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.010446] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/dds_fastrtps\n'}
+[7.010518] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.010630] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.010779] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[7.010855] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[7.010924] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.010988] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/dds_fastrtps\n'}
+[7.011052] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.011210] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.011732] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.011811] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[7.011920] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[7.012066] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[7.012133] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_c.h\n'}
+[7.012196] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__type_support.c\n'}
+[7.012265] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__rosidl_typesupport_introspection_c.h\n'}
+[7.012363] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__type_support.c\n'}
+[7.012503] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.012570] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[7.012637] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[7.012699] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__type_support.c\n'}
+[7.012762] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__rosidl_typesupport_introspection_c.h\n'}
+[7.012866] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__rosidl_typesupport_introspection_c.h\n'}
+[7.012968] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__type_support.c\n'}
+[7.013346] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.013633] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.014134] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so\n'}
+[7.014376] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.014481] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces\n'}
+[7.014615] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg\n'}
+[7.014713] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail\n'}
+[7.014786] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__type_support.cpp\n'}
+[7.014859] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.014966] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_video__type_support.cpp\n'}
+[7.015106] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.015180] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv\n'}
+[7.015249] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail\n'}
+[7.015321] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__type_support.cpp\n'}
+[7.015424] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__type_support.cpp\n'}
+[7.015544] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/aruco_detect__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.015610] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/srv/detail/get_aruco_response__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.016031] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.016560] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.016996] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.017271] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.017383] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.sh\n'}
+[7.017489] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.dsv\n'}
+[7.017594] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.017701] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.017814] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.017930] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.018038] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.018155] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces\n'}
+[7.018226] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.018329] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.018438] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg\n'}
+[7.018543] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_video_s.c\n'}
+[7.018651] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_image.py\n'}
+[7.018759] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py\n'}
+[7.018870] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_video.py\n'}
+[7.018979] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_image_s.c\n'}
+[7.019085] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.019186] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py\n'}
+[7.019293] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.019393] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.019514] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so\n'}
+[7.019665] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv\n'}
+[7.019775] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_aruco_detect.py\n'}
+[7.019881] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_get_aruco_response.py\n'}
+[7.019983] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/__init__.py\n'}
+[7.020080] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_aruco_detect_s.c\n'}
+[7.020168] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_get_aruco_response_s.c\n'}
+[7.020259] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.022838] (-) TimerEvent: {}
+[7.076132] (aruco_interfaces) StdoutLine: {'line': b"Listing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces'...\n"}
+[7.076352] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py'...\n"}
+[7.076421] (aruco_interfaces) StdoutLine: {'line': b"Listing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg'...\n"}
+[7.076490] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py'...\n"}
+[7.076546] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_image.py'...\n"}
+[7.076600] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_video.py'...\n"}
+[7.076658] (aruco_interfaces) StdoutLine: {'line': b"Listing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv'...\n"}
+[7.076710] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/__init__.py'...\n"}
+[7.076762] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_aruco_detect.py'...\n"}
+[7.076833] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/srv/_get_aruco_response.py'...\n"}
+[7.083246] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.083671] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.083891] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.084022] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.084263] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.084419] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.085220] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so\n'}
+[7.085415] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.085650] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/ArucoDetect.idl\n'}
+[7.085872] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoImage.idl\n'}
+[7.086016] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/GetArucoResponse.idl\n'}
+[7.086166] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoVideo.idl\n'}
+[7.086349] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/ArucoDetect.srv\n'}
+[7.086509] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/ArucoDetect_Request.msg\n'}
+[7.086620] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/ArucoDetect_Response.msg\n'}
+[7.086731] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoImage.msg\n'}
+[7.086889] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/GetArucoResponse.srv\n'}
+[7.087005] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/GetArucoResponse_Request.msg\n'}
+[7.087121] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/srv/GetArucoResponse_Response.msg\n'}
+[7.087236] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoVideo.msg\n'}
+[7.087352] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_interfaces\n'}
+[7.087468] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_interfaces\n'}
+[7.087620] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.sh\n'}
+[7.087813] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.087959] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.sh\n'}
+[7.088095] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.dsv\n'}
+[7.088211] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.bash\n'}
+[7.088326] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.sh\n'}
+[7.088440] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.zsh\n'}
+[7.088553] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.dsv\n'}
+[7.088661] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv\n'}
+[7.088775] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/ament_index/resource_index/packages/aruco_interfaces\n'}
+[7.088955] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.089060] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.089169] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.089311] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.089419] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.089526] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.089634] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.089742] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.089856] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.090023] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.090132] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.090290] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.090400] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.090508] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.090616] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.090725] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.090839] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.091011] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.091114] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.091214] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.091313] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.091413] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.091518] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.091617] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.091715] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig.cmake\n'}
+[7.091829] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig-version.cmake\n'}
+[7.092070] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/notthecoolkid/mrtx/mrt_ws/install/aruco_interfaces/share/aruco_interfaces/package.xml\n'}
+[7.093598] (aruco_interfaces) CommandEnded: {'returncode': 0}
+[7.122934] (-) TimerEvent: {}
+[7.223216] (-) TimerEvent: {}
+[7.294444] (aruco_interfaces) JobEnded: {'identifier': 'aruco_interfaces', 'rc': 0}
+[7.295357] (-) EventReactorShutdown: {}

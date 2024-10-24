@@ -192,12 +192,12 @@ class ArucoDetect_Response(metaclass=Metaclass_ArucoDetect_Response):
 
     __slots__ = [
         '_ids',
-        '_corners',
+        '_polygon',
     ]
 
     _fields_and_field_types = {
         'ids': 'sequence<int32>',
-        'corners': 'sequence<geometry_msgs/Polygon>',
+        'polygon': 'sequence<geometry_msgs/Polygon>',
     }
 
     SLOT_TYPES = (
@@ -210,7 +210,7 @@ class ArucoDetect_Response(metaclass=Metaclass_ArucoDetect_Response):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.ids = array.array('i', kwargs.get('ids', []))
-        self.corners = kwargs.get('corners', [])
+        self.polygon = kwargs.get('polygon', [])
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -243,7 +243,7 @@ class ArucoDetect_Response(metaclass=Metaclass_ArucoDetect_Response):
             return False
         if self.ids != other.ids:
             return False
-        if self.corners != other.corners:
+        if self.polygon != other.polygon:
             return False
         return True
 
@@ -281,12 +281,12 @@ class ArucoDetect_Response(metaclass=Metaclass_ArucoDetect_Response):
         self._ids = array.array('i', value)
 
     @builtins.property
-    def corners(self):
-        """Message field 'corners'."""
-        return self._corners
+    def polygon(self):
+        """Message field 'polygon'."""
+        return self._polygon
 
-    @corners.setter
-    def corners(self, value):
+    @polygon.setter
+    def polygon(self, value):
         if __debug__:
             from geometry_msgs.msg import Polygon
             from collections.abc import Sequence
@@ -301,8 +301,8 @@ class ArucoDetect_Response(metaclass=Metaclass_ArucoDetect_Response):
                  not isinstance(value, UserString) and
                  all(isinstance(v, Polygon) for v in value) and
                  True), \
-                "The 'corners' field must be a set or sequence and each value of type 'Polygon'"
-        self._corners = value
+                "The 'polygon' field must be a set or sequence and each value of type 'Polygon'"
+        self._polygon = value
 
 
 class Metaclass_ArucoDetect(type):

@@ -1,0 +1,7 @@
+# Request part
+sensor_msgs/Image image
+
+---
+# Response part
+int32[] ids
+geometry_msgs/Point[] corners

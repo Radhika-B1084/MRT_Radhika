@@ -11,6 +11,8 @@ setup.py
 aruco_server/__init__.py
 aruco_server/aruco_client.py
 aruco_server/aruco_service.py
+aruco_server/arucovid_client.py
+aruco_server/arucovid_service.py
 resource/aruco_server
 test/test_copyright.py
 test/test_flake8.py

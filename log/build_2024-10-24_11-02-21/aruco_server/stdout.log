@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/aruco_server/aruco_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/aruco_server/aruco_server.egg-info/dependency_links.txt
+writing entry points to ../../build/aruco_server/aruco_server.egg-info/entry_points.txt
+writing requirements to ../../build/aruco_server/aruco_server.egg-info/requires.txt
+writing top-level names to ../../build/aruco_server/aruco_server.egg-info/top_level.txt
+reading manifest file '../../build/aruco_server/aruco_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/aruco_server/aruco_server.egg-info/SOURCES.txt'
+running build
+running build_py
+copying aruco_server/arucovid_service.py -> /home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/build/lib/aruco_server
+running install
+running install_lib
+copying /home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/build/lib/aruco_server/arucovid_service.py -> /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server
+byte-compiling /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/arucovid_service.py to arucovid_service.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/aruco_server/aruco_server.egg-info to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server
+Installing service script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server
+Installing vclient script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server
+Installing vservice script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server
+writing list of installed files to '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/install.log'

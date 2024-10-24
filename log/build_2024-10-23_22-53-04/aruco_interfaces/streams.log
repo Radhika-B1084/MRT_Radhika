@@ -1,0 +1,248 @@
+[0.008s] Invoking command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --build /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces -- -j20 -l20
+[0.031s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.130s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.145s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.147s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.150s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.197s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.455s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.457s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.458s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.460s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.971s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.990s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.990s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.990s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.029s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.030s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.031s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.040s] -- Added test 'lint_cmake' to check CMake code style
+[1.041s] -- Added test 'xmllint' to check XML markup files
+[1.042s] -- Configuring done
+[1.083s] -- Generating done
+[1.084s] -- Build files have been written to: /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces
+[1.100s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:216: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/aruco_image.h'
+[1.100s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:192: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/aruco_image.h'
+[1.100s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:219: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.h'
+[1.100s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:195: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.h'
+[1.100s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:222: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__struct.h'
+[1.100s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:198: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__struct.h'
+[1.100s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:225: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__type_support.h'
+[1.101s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:201: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__type_support.h'
+[1.101s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:237: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c'
+[1.101s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:231: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c'
+[1.101s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:232: warning: overriding recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/aruco_image.hpp'
+[1.101s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:208: warning: ignoring old recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/aruco_image.hpp'
+[1.101s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:235: warning: overriding recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__builder.hpp'
+[1.101s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:211: warning: ignoring old recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__builder.hpp'
+[1.101s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:238: warning: overriding recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__struct.hpp'
+[1.101s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:214: warning: ignoring old recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__struct.hpp'
+[1.102s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:241: warning: overriding recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__traits.hpp'
+[1.102s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:217: warning: ignoring old recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__traits.hpp'
+[1.109s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.113s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:232: warning: overriding recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/aruco_image.hpp'
+[1.113s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:208: warning: ignoring old recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/aruco_image.hpp'
+[1.113s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:235: warning: overriding recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__builder.hpp'
+[1.113s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:211: warning: ignoring old recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__builder.hpp'
+[1.113s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:238: warning: overriding recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__struct.hpp'
+[1.113s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:214: warning: ignoring old recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__struct.hpp'
+[1.114s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:241: warning: overriding recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__traits.hpp'
+[1.114s] CMakeFiles/aruco_interfaces__cpp.dir/build.make:217: warning: ignoring old recipe for target 'rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_image__traits.hpp'
+[1.121s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.133s] [  4%] Built target ament_cmake_python_copy_aruco_interfaces
+[1.287s] running egg_info
+[1.287s] writing aruco_interfaces.egg-info/PKG-INFO
+[1.287s] writing dependency_links to aruco_interfaces.egg-info/dependency_links.txt
+[1.287s] writing top-level names to aruco_interfaces.egg-info/top_level.txt
+[1.289s] reading manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[1.290s] writing manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[1.310s] [  4%] Built target ament_cmake_python_build_aruco_interfaces_egg
+[1.443s] [  4%] Built target aruco_interfaces__cpp
+[1.445s] CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp'
+[1.445s] CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/build.make:176: warning: ignoring old recipe for target 'rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp'
+[1.445s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:184: warning: overriding recipe for target 'rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_cpp.hpp'
+[1.445s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:178: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_cpp.hpp'
+[1.445s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:196: warning: overriding recipe for target 'rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__type_support.cpp'
+[1.446s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:190: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__type_support.cpp'
+[1.446s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:193: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_image__type_support.cpp'
+[1.446s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:181: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_image__type_support.cpp'
+[1.446s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:196: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_cpp.hpp'
+[1.446s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:184: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_cpp.hpp'
+[1.450s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.452s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.452s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.453s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_c[0m
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:216: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/aruco_image.h'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:192: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/aruco_image.h'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:219: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.h'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:195: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.h'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:222: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__struct.h'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:198: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__struct.h'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:225: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__type_support.h'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:201: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__type_support.h'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:237: warning: overriding recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c'
+[1.457s] CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/build.make:231: warning: ignoring old recipe for target 'rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c'
+[1.467s] [ 12%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.c.o[0m
+[1.467s] [ 14%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.c.o[0m
+[1.470s] [ 17%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.c.o[0m
+[1.533s] [ 19%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_generator_c.so[0m
+[1.577s] [ 19%] Built target aruco_interfaces__rosidl_generator_c
+[1.580s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:193: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_c.h'
+[1.580s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:181: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_c.h'
+[1.580s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:196: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__type_support_c.cpp'
+[1.580s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:184: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__type_support_c.cpp'
+[1.580s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/build.make:184: warning: overriding recipe for target 'rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_c.h'
+[1.580s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/build.make:178: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_c.h'
+[1.581s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/build.make:196: warning: overriding recipe for target 'rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__type_support.c'
+[1.581s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/build.make:190: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__type_support.c'
+[1.581s] CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_c/aruco_interfaces/msg/aruco_image__type_support.cpp'
+[1.581s] CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/build.make:176: warning: ignoring old recipe for target 'rosidl_typesupport_c/aruco_interfaces/msg/aruco_image__type_support.cpp'
+[1.586s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.588s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.588s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.724s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_cpp[0m
+[1.729s] CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp'
+[1.729s] CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/build.make:176: warning: ignoring old recipe for target 'rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp'
+[1.742s] [ 31%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/aruco_detect__type_support.cpp.o[0m
+[1.742s] [ 31%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_image__type_support.cpp.o[0m
+[1.742s] [ 31%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o[0m
+[1.763s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.767s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:184: warning: overriding recipe for target 'rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_cpp.hpp'
+[1.767s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:178: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_cpp.hpp'
+[1.767s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:196: warning: overriding recipe for target 'rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__type_support.cpp'
+[1.767s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:190: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__type_support.cpp'
+[1.776s] [ 36%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/aruco_detect__type_support.cpp.o[0m
+[1.776s] [ 36%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_image__type_support.cpp.o[0m
+[1.779s] [ 38%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/get_aruco_response__type_support.cpp.o[0m
+[1.788s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.793s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:193: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_image__type_support.cpp'
+[1.793s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:181: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_image__type_support.cpp'
+[1.794s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:196: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_cpp.hpp'
+[1.794s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:184: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_cpp.hpp'
+[1.802s] [ 42%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_image__type_support.cpp.o[0m
+[1.802s] [ 42%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/get_aruco_response__type_support.cpp.o[0m
+[1.803s] [ 44%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/aruco_detect__type_support.cpp.o[0m
+[1.895s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c[0m
+[1.898s] CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_c/aruco_interfaces/msg/aruco_image__type_support.cpp'
+[1.898s] CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/build.make:176: warning: ignoring old recipe for target 'rosidl_typesupport_c/aruco_interfaces/msg/aruco_image__type_support.cpp'
+[1.905s] [ 46%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/aruco_image__type_support.cpp.o[0m
+[1.906s] [ 48%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/get_aruco_response__type_support.cpp.o[0m
+[1.906s] [ 51%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/aruco_detect__type_support.cpp.o[0m
+[1.927s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c[0m
+[1.931s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/build.make:184: warning: overriding recipe for target 'rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_c.h'
+[1.932s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/build.make:178: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_introspection_c.h'
+[1.932s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/build.make:196: warning: overriding recipe for target 'rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__type_support.c'
+[1.932s] CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/build.make:190: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__type_support.c'
+[1.940s] [ 53%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_c.so[0m
+[1.940s] [ 57%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_image__type_support.c.o[0m
+[1.940s] [ 57%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/get_aruco_response__type_support.c.o[0m
+[1.940s] [ 59%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/aruco_detect__type_support.c.o[0m
+[1.946s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.952s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:193: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_c.h'
+[1.952s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:181: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__rosidl_typesupport_fastrtps_c.h'
+[1.952s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:196: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__type_support_c.cpp'
+[1.952s] CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:184: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__type_support_c.cpp'
+[1.959s] [ 61%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_image__type_support_c.cpp.o[0m
+[1.960s] [ 63%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/get_aruco_response__type_support_c.cpp.o[0m
+[1.961s] [ 65%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/aruco_detect__type_support_c.cpp.o[0m
+[1.987s] [ 65%] Built target aruco_interfaces__rosidl_typesupport_c
+[1.990s] [ 68%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.024s] [ 68%] Built target aruco_interfaces__rosidl_typesupport_introspection_c
+[2.144s] [ 70%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so[0m
+[2.189s] [ 70%] Built target aruco_interfaces__rosidl_typesupport_cpp
+[2.235s] [ 72%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.303s] [ 72%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c
+[2.327s] [ 74%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.364s] [ 76%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.390s] [ 76%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.427s] [ 76%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp
+[2.451s] [ 76%] Built target aruco_interfaces
+[2.454s] aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make:209: warning: overriding recipe for target 'rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py'
+[2.454s] aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make:203: warning: ignoring old recipe for target 'rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py'
+[2.454s] aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make:227: warning: overriding recipe for target 'rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c'
+[2.454s] aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make:221: warning: ignoring old recipe for target 'rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c'
+[2.467s] aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make:209: warning: overriding recipe for target 'rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py'
+[2.467s] aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make:203: warning: ignoring old recipe for target 'rosidl_generator_py/aruco_interfaces/msg/_aruco_image.py'
+[2.468s] aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make:227: warning: overriding recipe for target 'rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c'
+[2.468s] aruco_interfaces__py/CMakeFiles/aruco_interfaces__py.dir/build.make:221: warning: ignoring old recipe for target 'rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c'
+[2.477s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.995s] [ 78%] Built target aruco_interfaces__py
+[3.003s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_generator_py[0m
+[3.020s] [ 80%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/srv/_aruco_detect_s.c.o[0m
+[3.021s] [ 82%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_image_s.c.o[0m
+[3.021s] [ 85%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/srv/_get_aruco_response_s.c.o[0m
+[3.114s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so[0m
+[3.161s] [ 87%] Built target aruco_interfaces__rosidl_generator_py
+[3.175s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.176s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_c__pyext[0m
+[3.177s] [35m[1mConsolidate compiler generated dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.184s] [ 89%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.186s] [ 91%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.188s] [ 93%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.235s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c:173:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K’
+[3.235s]   173 | static void * [01;31m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K(void)
+[3.235s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.235s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c:173:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K’
+[3.235s]   173 | static void * [01;31m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K(void)
+[3.235s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.236s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c:31:15:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K’ with type ‘[01m[Kvoid *(void)[m[K’
+[3.236s]    31 | static void * [01;36m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K(void)
+[3.236s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.236s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c:31:15:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K’ with type ‘[01m[Kvoid *(void)[m[K’
+[3.236s]    31 | static void * [01;36m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K(void)
+[3.236s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.236s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c:178:13:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K’
+[3.236s]   178 | static void [01;31m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K(void * raw_ros_message)
+[3.236s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.236s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c:178:13:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K’
+[3.237s]   178 | static void [01;31m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K(void * raw_ros_message)
+[3.237s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.237s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c:36:13:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K’ with type ‘[01m[Kvoid(void *)[m[K’
+[3.237s]    36 | static void [01;36m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K(void * raw_ros_message)
+[3.237s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.237s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c:36:13:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K’ with type ‘[01m[Kvoid(void *)[m[K’
+[3.237s]    36 | static void [01;36m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K(void * raw_ros_message)
+[3.237s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.237s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c:195:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[K_register_msg_type__msg__aruco_image[m[K’
+[3.237s]   195 | [01;31m[K_register_msg_type__msg__aruco_image[m[K(PyObject * pymodule)
+[3.238s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.238s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c:195:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[K_register_msg_type__msg__aruco_image[m[K’
+[3.238s]   195 | [01;31m[K_register_msg_type__msg__aruco_image[m[K(PyObject * pymodule)
+[3.238s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.238s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c:53:1:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[K_register_msg_type__msg__aruco_image[m[K’ with type ‘[01m[Kint8_t(PyObject *)[m[K’ {aka ‘[01m[Ksigned char(struct _object *)[m[K’}
+[3.238s]    53 | [01;36m[K_register_msg_type__msg__aruco_image[m[K(PyObject * pymodule)
+[3.238s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.238s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c:53:1:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[K_register_msg_type__msg__aruco_image[m[K’ with type ‘[01m[Kint8_t(PyObject *)[m[K’ {aka ‘[01m[Ksigned char(struct _object *)[m[K’}
+[3.238s]    53 | [01;36m[K_register_msg_type__msg__aruco_image[m[K(PyObject * pymodule)
+[3.238s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.238s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:173:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K’
+[3.238s]   173 | static void * [01;31m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K(void)
+[3.239s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.239s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:31:15:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K’ with type ‘[01m[Kvoid *(void)[m[K’
+[3.239s]    31 | static void * [01;36m[Karuco_interfaces__msg__aruco_image__create_ros_message[m[K(void)
+[3.239s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.239s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:178:13:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K’
+[3.239s]   178 | static void [01;31m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K(void * raw_ros_message)
+[3.239s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.239s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:36:13:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K’ with type ‘[01m[Kvoid(void *)[m[K’
+[3.239s]    36 | static void [01;36m[Karuco_interfaces__msg__aruco_image__destroy_ros_message[m[K(void * raw_ros_message)
+[3.239s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.239s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:195:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[K_register_msg_type__msg__aruco_image[m[K’
+[3.239s]   195 | [01;31m[K_register_msg_type__msg__aruco_image[m[K(PyObject * pymodule)
+[3.239s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.239s] [01m[K/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:53:1:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[K_register_msg_type__msg__aruco_image[m[K’ with type ‘[01m[Kint8_t(PyObject *)[m[K’ {aka ‘[01m[Ksigned char(struct _object *)[m[K’}
+[3.239s]    53 | [01;36m[K_register_msg_type__msg__aruco_image[m[K(PyObject * pymodule)
+[3.239s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.240s] gmake[2]: *** [CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o] Error 1
+[3.240s] gmake[1]: *** [CMakeFiles/Makefile2:564: CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/all] Error 2
+[3.240s] gmake[1]: *** Waiting for unfinished jobs....
+[3.240s] gmake[2]: *** [CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o] Error 1
+[3.240s] gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Error 2
+[3.240s] gmake[2]: *** [CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:76: CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o] Error 1
+[3.240s] gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Error 2
+[3.240s] gmake: *** [Makefile:146: all] Error 2
+[3.244s] Invoked command in '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/notthecoolkid/mrt_ws/install/week0_tutorials:/home/notthecoolkid/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --build /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces -- -j20 -l20

@@ -206,6 +206,10 @@ CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gen
  /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_image__functions.h \
+ /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__type_support.h \
+ /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
+ /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_video__functions.h \
  /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__type_support.h \
  /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__struct.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
@@ -214,4 +218,7 @@ CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gen
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h \
- /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.h
+ /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_detect__functions.h \
+ /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__type_support.h \
+ /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__struct.h \
+ /home/notthecoolkid/mrtx/mrt_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/get_aruco_response__functions.h

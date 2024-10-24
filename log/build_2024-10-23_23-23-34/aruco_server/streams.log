@@ -1,0 +1,24 @@
+[0.831s] Invoking command in '/home/notthecoolkid/mrtx/mrt_ws/src/aruco_server': PYTHONPATH=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_server build --build-base /home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/build install --record /home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/install.log --single-version-externally-managed install_data
+[1.149s] running egg_info
+[1.150s] writing ../../build/aruco_server/aruco_server.egg-info/PKG-INFO
+[1.150s] writing dependency_links to ../../build/aruco_server/aruco_server.egg-info/dependency_links.txt
+[1.150s] writing entry points to ../../build/aruco_server/aruco_server.egg-info/entry_points.txt
+[1.150s] writing requirements to ../../build/aruco_server/aruco_server.egg-info/requires.txt
+[1.151s] writing top-level names to ../../build/aruco_server/aruco_server.egg-info/top_level.txt
+[1.153s] reading manifest file '../../build/aruco_server/aruco_server.egg-info/SOURCES.txt'
+[1.154s] writing manifest file '../../build/aruco_server/aruco_server.egg-info/SOURCES.txt'
+[1.154s] running build
+[1.154s] running build_py
+[1.155s] running install
+[1.155s] running install_lib
+[1.157s] running install_data
+[1.157s] running install_egg_info
+[1.159s] removing '/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server-0.0.0-py3.10.egg-info' (and everything under it)
+[1.160s] Copying ../../build/aruco_server/aruco_server.egg-info to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server-0.0.0-py3.10.egg-info
+[1.161s] running install_scripts
+[1.192s] Installing client script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server
+[1.192s] Installing service script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server
+[1.192s] Installing vclient script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server
+[1.193s] Installing vservice script to /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server
+[1.193s] writing list of installed files to '/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/install.log'
+[1.225s] Invoked command in '/home/notthecoolkid/mrtx/mrt_ws/src/aruco_server' returned '0': PYTHONPATH=/home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_server build --build-base /home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/build install --record /home/notthecoolkid/mrtx/mrt_ws/build/aruco_server/install.log --single-version-externally-managed install_data

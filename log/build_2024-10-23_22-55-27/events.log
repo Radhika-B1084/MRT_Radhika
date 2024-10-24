@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (-) JobUnselected: {'identifier': 'aruco_interfaces'}
+[0.000346] (-) JobUnselected: {'identifier': 'aruco_server'}
+[0.000372] (-) JobUnselected: {'identifier': 'sauron'}
+[0.000395] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000417] (-) JobUnselected: {'identifier': 'week0_tutorials'}
+[0.000439] (-) EventReactorShutdown: {}

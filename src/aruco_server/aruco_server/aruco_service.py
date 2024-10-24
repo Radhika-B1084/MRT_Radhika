@@ -44,8 +44,8 @@ class ArucoService(Node):
                 polygons.append(polygon)
             response.ids = ids
         else:
-            response.ids = []
-            response.corners = []
+            response.ids.points.append(ids)
+            response.corners.points.append(corners)
 
         return response
 

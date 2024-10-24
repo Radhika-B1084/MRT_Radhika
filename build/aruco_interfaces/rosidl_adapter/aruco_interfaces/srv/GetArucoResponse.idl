@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aruco_interfaces/srv/GetArucoResponse.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module aruco_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request part")
+    struct GetArucoResponse_Request {
+      sensor_msgs::msg::Image image;
+    };
+    @verbatim (language="comment", text=
+      "Response part")
+    struct GetArucoResponse_Response {
+      sequence<int32> ids;
+
+      sequence<geometry_msgs::msg::Point> corners;
+    };
+  };
+};

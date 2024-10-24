@@ -1,8 +1,12 @@
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/__init__.py
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/aruco_client.py
+/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/arucovid_client.py
+/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/arucovid_service.py
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/aruco_service.py
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/__pycache__/__init__.cpython-310.pyc
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/__pycache__/aruco_client.cpython-310.pyc
+/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/__pycache__/arucovid_client.cpython-310.pyc
+/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/__pycache__/arucovid_service.cpython-310.pyc
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server/__pycache__/aruco_service.cpython-310.pyc
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/share/ament_index/resource_index/packages/aruco_server
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/share/aruco_server/package.xml
@@ -15,3 +19,5 @@
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/python3.10/site-packages/aruco_server-0.0.0-py3.10.egg-info/requires.txt
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server/client
 /home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server/service
+/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server/vclient
+/home/notthecoolkid/mrtx/mrt_ws/install/aruco_server/lib/aruco_server/vservice
